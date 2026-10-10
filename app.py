@@ -223,7 +223,8 @@ def auth():
                     </div>
                 </div>
                 """
-                mail.send(msg)
+                #mail.send(msg)
+                print(f"OTP is: {otp}")
                 print(f"✅ HTML Email successfully sent to {email}")
             except Exception as e:
                 print(e)
